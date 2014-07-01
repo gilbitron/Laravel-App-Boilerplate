@@ -1,0 +1,27 @@
+{
+    "name": "gilbitron/laravel-app-boilerplate",
+    "description": "A Laravel 4 boilerplate package for creating web apps.",
+    "keywords": ["boilerplate", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilbert Pellegrom",
+            "email": "gilbert@pellegrom.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/migrations",
+            "src/models"
+        ],
+        "psr-0": {
+            "Gilbitron\\LaravelAppBoilerplate\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
