@@ -27,12 +27,10 @@ To install the Laravel App Boilerplate please do the following:
 
 1. Make sure you have already installed [Laravel](http://laravel.com). Using a clean install is best.
 2. Add the Laravel App Boilerplate to the "require" section of your `composer.json`
-
 `"gilbitron/laravel-app-boilerplate": "0.1.*"`
 
 3. Run `composer update` to install the boilerplate
 4. Open `app/config/app.php` and add the following line to the `$providers` array
-
 `'Gilbitron\LaravelAppBoilerplate\LaravelAppBoilerplateServiceProvider',`
 
 5. Run `php artisan config:publish gilbitron/laravel-app-boilerplate` to copy the config file to the
