@@ -49,8 +49,8 @@ Usage
 
 Your web app is now setup and ready to use. The following routes are defined and can be used:
 
-* `login`
 * `signup`
+* `login`
 * `logout`
 
 Note that the Laravel App Boilerplate uses Laravel's built in methods and filters for authentication.
