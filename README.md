@@ -73,18 +73,18 @@ default `User` model to make it compatible.
 
 ```php
 /**
-* The attributes that can be mass assigned
-*
-* @var array
-*/
+ * The attributes that can be mass assigned
+ *
+ * @var array
+ */
 protected $fillable = array('email', 'password', 'name');
 
 /**
-* Automatically hash a password when it is being set
-*/
+ * Automatically hash a password when it is being set
+ */
 public function setPasswordAttribute($pass)
 {
-	$this->attributes['password'] = \Hash::make($pass);
+	$this->attributes['password'] = Hash::make($pass);
 }
 ```
 
